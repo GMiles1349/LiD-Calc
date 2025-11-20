@@ -3,13 +3,13 @@
 
 The LiD Calculator is an attempt to have an interactive damage calculator for Let it Die. It is in its very early stages and will be updated frequently as I expand its functionality, learn more about how the game handles attack/damage calculations, and fix my mistakes.
 
-The LiD calculator is a spreadsheet. As such, the intention is to keep it 100% compatible between MS Excel and Google Sheets. This means lots of cell formulas that both platforms handle slightly differently in some cases. Being restricted to what I can do through cell formulas makes things messy. I could get more done and faster using VBA or Google Apps scripts, but that would destroy compatibility between platforms and introduce security concerns for some users of the calculator. I could write the calculator as a web page or web app that could be accessed by basically anyone, anywhere, but I know next to nothing about web development. So, Google Sheets it is.
+The LiD calculator is a spreadsheet. This means lots of cell formulas, and being restricted to what I can do through cell formulas makes things messy. I could use VBA or just write a natively compiled executable, but that introduces security concerns for some users of the calculator and would probably result in lots of time spent debugging, which most likely won't save me any time over fighting with Excel formulas and formatting. I could write the calculator as a web page or web app that could be accessed by basically anyone, anywhere, but I know next to nothing about web development. So, Excel it is.
 
 # 2.	Current Status
 
 Currently, the calculator is somewhere between a proof of concept and a functioning tool. It only takes into account how up to 9 decals affect final attack power given a user-supplied ATK value, raw and elemental damage types and percentages, headshot multiplier and base critical damage chance. I have only included decals that affect base attack/damage, critical chance and critical damage. There is currently no functionality to apply different levels of buffs/multipliers for set decals. If you select Trigger Happy or ANGRY MAMA, you’re going to see the full-set multipliers. The calculations also do not take into account STR and DEX scaling, and so consequently do not take into account fighter stats. All calculations are done just on the weapon ATK value, making the results very far from what actually happens in game.
 
-As it is now, it may be useful for being able to see how different weapon and decal combinations perform in a general sense. The calculator currently should not be considered accurate. You may be able to trust that one decal combination is better or worse than another, but you cannot trust that the values shown are what the game itself is working with.
+As it is now, it may be useful for being able to see how different weapon and decal combinations perform in a general sense. The calculator currently should not be considered accurate, like, at all. You may be able to trust that one decal combination is better or worse than another, but you cannot trust that the values shown are what the game itself is working with.
 
 # 3.	Features
 
