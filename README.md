@@ -23,11 +23,11 @@ As it is now, it may be useful for being able to see how different weapon and de
 - A headshot multiplier.
 - Final critical chance and critical damage multiplier.
 - Final ATK values for
-- - Non-critical attacks
-- - Critical attacks
-- - Average attack (based on critical chance)
-- - Non-critical headshot
-- - Critical headshots
+	- Non-critical attacks
+	- Critical attacks
+	- Average attack (based on critical chance)
+	- Non-critical headshot
+	- Critical headshots
 
 #5.	To-Do
 
